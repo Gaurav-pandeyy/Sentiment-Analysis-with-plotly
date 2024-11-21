@@ -35,7 +35,7 @@ with open("emotions.txt","r") as file:
         if word in final_words:
             emotion_list.append(emotion)
 
-print(emotion_list)
+
 w = Counter(emotion_list)
 print(w)
 fig = px.bar(
