@@ -37,7 +37,7 @@ with open("emotions.txt","r") as file:
 
 print(emotion_list)
 w = Counter(emotion_list)
-
+print(w)
 fig = px.bar(
     x=w.keys(),
     y=w.values(),
